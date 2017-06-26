@@ -1,0 +1,21 @@
+Package: geneTables
+Title: Enhanced gene tables for reportMD
+Version: 0.1.0
+Authors@R: person("Peter", "Humburg", email = "p.humburg@gmail.com", role = c("aut", "cre"))
+Description: Provides printMD methods to facilitate the creation of richer tables
+    for the presentation of results from gene expression studies.
+Depends:
+    R (>= 3.3.1),
+    reportMD,
+    arrayPlots
+Imports:
+    ggplot2,
+    reshape2,
+    scales,
+Suggests:
+    org.Hs.eg.db,
+    GO.db,
+    biomaRt
+License: MIT
+LazyData: true
+RoxygenNote: 6.0.1
